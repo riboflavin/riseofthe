@@ -16,7 +16,7 @@ function getRandomArbitrary (min, max){
 function start(progress){
 
 	if (progress == 'init') {
-		$('#gbutton').fadeOut('fast');
+		$('#gbutton').clearQueue().fadeOut('fast').addClass('btn-warning').text('What\'s the name of the next Adam Gidwitz novel?');
 		$('#startbutton').unbind().fadeOut('fast',function(){$('#startbutton').removeClass('btn-warning').text('...').fadeIn('fast');});
 		$('#introtext').fadeOut('medium');
 		$('#titlecontainer').slideUp('medium',function(){
@@ -39,7 +39,7 @@ function start(progress){
 			},
 			randomtime);
 	}
-	else if (continue_chance > 6)
+	else if (continue_chance > 7)
 	{
 		var newtext = getRandomEl(continue_array);
 		setTimeout(function(){
