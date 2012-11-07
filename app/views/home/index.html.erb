@@ -1,0 +1,21 @@
+<% content_for :css do %>
+	<%= include_stylesheets :all %>
+<% end %>
+<link href='http://fonts.googleapis.com/css?family=Mate+SC' rel='stylesheet' type='text/css'>
+
+<div class="container" style="margin-top: 30px; opacity: .9;">
+
+<h1 id="introtext" style="margin-top:20px; color:white;">What's the next Planet of the Apes movie called?</h1>
+<div class="hero-unit" id="marquee" style="margin-top: 14px; min-height: 400px; margin-bottom: 50px;">
+<h2 id="titlecontainer"></h2>
+<button class="btn btn-large btn-warning" id="startbutton">Tell me!</button>
+<button class="btn btn-large btn-warning" onclick="gidwitz();" id="gbutton" style="display: none;">What's the name of the next Adam Gidwitz novel?</button>
+</div>
+
+<small style="color:white;">Written by <a href="http://justindunham.net" style="color: white; text-decoration: underline;">Justin Dunham</a>. <a href="http://www.github.com/riboflavin/riseofthe" style="color: white; text-decoration: underline;">Source code on Github</a>.</small>
+</div>
+
+
+<% content_for :js do %>
+	<%= include_javascripts :all %>
+<% end %>
