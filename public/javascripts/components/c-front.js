@@ -1,4 +1,4 @@
-var	prep_phrase_array = ['Rise of The','Planet of the','Rise of the','Planet of the','Revenge of the','Return of the','Son of the'];
+var	prep_phrase_array = ['Rise of the','Planet of the','Rise of the','Planet of the','Revenge of the','Return of the','Son of the'];
 var continue_array = ['Apes: ','Apes 2: '];
 var ender_array = ['Apes','Apes 2','Apes, a Ron Howard Film','Apes: Band of Brothers'];
 var g_array = [', Grimmly',': a Companion to "A Tale Dark and Grimm"'];
