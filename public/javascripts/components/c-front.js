@@ -56,7 +56,7 @@ function start(progress){
 			$('#startbutton').delay(2000).fadeOut('medium',function(){
 				$('#startbutton').addClass('btn-warning');
 				$('#startbutton').fadeIn('medium').text('Tell me again!');
-				$('#gbutton').delay(2000).fadeIn('medium');
+				$('#gbutton').delay(1500).fadeIn('medium');
 				$('#startbutton').click(function(){start("init")});
 			});
 			},
