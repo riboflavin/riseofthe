@@ -1,7 +1,7 @@
-var	prep_phrase_array = ['Rise of The','Planet of The','Rise of The','Planet of The','Revenge of The','Return of The','Son of The'];
+var	prep_phrase_array = ['Rise of The','Planet of the','Rise of the','Planet of the','Revenge of the','Return of the','Son of the'];
 var continue_array = ['Apes: ','Apes 2: '];
-var ender_array = ['Apes','Apes 2','Apes, A Ron Howard Film','Apes: Band of Brothers'];
-var g_array = [', Grimmly',': A Companion To "A Tale Dark and Grimm"'];
+var ender_array = ['Apes','Apes 2','Apes, a Ron Howard Film','Apes: Band of Brothers'];
+var g_array = [', Grimmly',': a Companion to "A Tale Dark and Grimm"'];
 
 $('#startbutton').click(function(){start("init")});
 
