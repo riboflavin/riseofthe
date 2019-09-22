@@ -44,8 +44,8 @@ font-size: 18px;
 <div class="container" style="margin-top: 30px; opacity: .9;">
 
 <h1 id="introtext" style="margin-top:20px; color:white;">Planet of the Apes movie title predictor</h1>
-<h3 id="introtext" style="margin-top:20px; color:white;">This app uses a special learning model to predict the next Planet of the Apes movie title.</h3>
 <div class="hero-unit" id="marquee" style="margin-top: 14px; min-height: 400px; margin-bottom: 50px;">
+<h3 id="introtext" style="margin-top:20px; color:gray;">The next Planet of the Apes movie is called:</h3>
 <h2 id="titlecontainer"></h2>
 <button class="btn btn-large btn-warning" id="startbutton">Tell me!</button>
 </div>
@@ -75,7 +75,7 @@ function start(progress){
 		$('#introtext').fadeOut('medium');
 		$('#titlecontainer').slideUp('medium',function(){
 		$('#titlecontainer').empty(); 
-		$('#introtext').text('Oh, it\'s called...').fadeIn('medium',function(){
+		$('#introtext').text('').fadeIn('medium',function(){
 		$('#titlecontainer').slideDown('fast');			
 		});
 		});
